@@ -492,22 +492,14 @@ address p {
 }
 
 .footer-submit-input {
-    display: block;
-    text-transform: uppercase;
     color: var(--wite-color);
-
-    font-size: 14px;
 }
 
 .footer-submit-title {
-    /*стал блочным и может двигаться падингами */
-
-    color: var(--wite-color);
-    font-size: 14px;
     line-height: 1.1;
     display: block;
     text-transform: uppercase;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .footer-submit-input-wrapper {
@@ -535,7 +527,8 @@ address p {
     background-color: var(--accent-text-color);
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
     color: var(--wite-color);
     cursor: pointer;
     border-radius: 4px;
